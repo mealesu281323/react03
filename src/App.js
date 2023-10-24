@@ -4,9 +4,15 @@ import C01componente from './pagina/C01componente';
 
 function App() {
   return (
-    <div>
-      hola mundo desde react...
-      <C01componente />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          edit <code>src/</code>
+        </p>
+        
+        
+        </header> 
     </div>
   );
 }
